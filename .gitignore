@@ -28,3 +28,5 @@ yarn-error.log*
 # vs code specific files
 .history/
 .lh/
+.vercel
+.env*.local
