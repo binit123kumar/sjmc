@@ -1,68 +1,169 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 const Page112 = () => {
-  const navigate = useNavigate();
-
-  // Example stats (replace with real data / props / API later)
-  const stats = {
-    totalBookings: 120,
-    availableRooms: 35,
-  };
-
   const styles = {
     container: {
-      padding: "20px",
-      fontFamily: "Arial, sans-serif",
+      padding: "30px",
+      fontFamily: "'Segoe UI', Arial, sans-serif",
+      background: "#f0f4f8",
+      minHeight: "100vh",
     },
-    title: {
-      fontSize: "28px",
-      marginBottom: "20px",
-      color: "#333",
+    heading: {
+      textAlign: "center",
+      fontSize: "22px",
+      fontWeight: "bold",
+      color: "#1a3c5e",
+      marginBottom: "8px",
+      textTransform: "uppercase",
+      letterSpacing: "1px",
+    },
+    subheading: {
+      textAlign: "center",
+      fontSize: "14px",
+      color: "#555",
+      marginBottom: "30px",
     },
     cardGrid: {
       display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-      gap: "20px",
+      gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+      gap: "24px",
+      maxWidth: "800px",
+      margin: "0 auto",
     },
     card: {
-      borderRadius: "10px",
+      borderRadius: "16px",
+      padding: "28px 24px",
       color: "#fff",
-      padding: "20px",
-      cursor: "pointer",
-      textAlign: "center",
-      boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-      transition: "transform 0.2s",
+      boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
+      position: "relative",
+      overflow: "hidden",
     },
-    cardTitle: {
-      fontSize: "18px",
-      marginBottom: "10px",
+    card1: {
+      background: "linear-gradient(135deg, #1a3c5e, #2d6a9f)",
     },
-    cardValue: {
-      fontSize: "24px",
+    card2: {
+      background: "linear-gradient(135deg, #6b2d2d, #c0392b)",
+    },
+    freeBadge: {
+      position: "absolute",
+      top: "16px",
+      right: "16px",
+      backgroundColor: "#f1c40f",
+      color: "#333",
       fontWeight: "bold",
+      fontSize: "12px",
+      padding: "4px 10px",
+      borderRadius: "20px",
+    },
+    icon: {
+      fontSize: "40px",
+      marginBottom: "12px",
+    },
+    courseType: {
+      fontSize: "11px",
+      textTransform: "uppercase",
+      letterSpacing: "2px",
+      opacity: 0.8,
+      marginBottom: "6px",
+    },
+    title: {
+      fontSize: "22px",
+      fontWeight: "bold",
+      marginBottom: "16px",
+      lineHeight: "1.3",
+    },
+    divider: {
+      height: "1px",
+      backgroundColor: "rgba(255,255,255,0.3)",
+      marginBottom: "16px",
+    },
+    infoRow: {
+      display: "flex",
+      justifyContent: "space-between",
+      marginBottom: "10px",
+      fontSize: "13px",
+    },
+    label: {
+      opacity: 0.8,
+    },
+    value: {
+      fontWeight: "bold",
+    },
+    bottomTag: {
+      marginTop: "20px",
+      backgroundColor: "rgba(255,255,255,0.15)",
+      borderRadius: "8px",
+      padding: "8px 12px",
+      fontSize: "12px",
+      textAlign: "center",
     },
   };
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>📊 Admin Dashboard</h1>
+      <h2 style={styles.heading}>Free Training Programme</h2>
+      <p style={styles.subheading}>
+        School of Journalism &amp; Mass Communication, AKU Patna
+        <br />
+        For Minority Students &bull; Bihar Skill Development Mission
+      </p>
+
       <div style={styles.cardGrid}>
-        <div
-          style={{ ...styles.card, backgroundColor: "#4e73df" }}
-          onClick={() => navigate("/admin/bookings")}
-        >
-          <h3 style={styles.cardTitle}>Total Bookings</h3>
-          <p style={styles.cardValue}>{stats.totalBookings}</p>
+
+        <div style={{ ...styles.card, ...styles.card1 }}>
+          <span style={styles.freeBadge}>FREE</span>
+          <div style={styles.icon}>📷</div>
+          <p style={styles.courseType}>Skill Development Course</p>
+          <h3 style={styles.title}>Photography Training Programme</h3>
+          <div style={styles.divider}></div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Duration</span>
+            <span style={styles.value}>3 Months</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Seats</span>
+            <span style={styles.value}>40 Seats</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Eligibility</span>
+            <span style={styles.value}>Graduation</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Fee</span>
+            <span style={styles.value}>Rs. 0 / Free</span>
+          </div>
+          <div style={styles.bottomTag}>
+            📍 SJMC, AKU Campus, Mithapur, Patna - 800001
+          </div>
         </div>
 
-        <div
-          style={{ ...styles.card, backgroundColor: "#1cc88a" }}
-          onClick={() => navigate("/admin/rooms")}
-        >
-          <h3 style={styles.cardTitle}>Available Rooms</h3>
-          <p style={styles.cardValue}>{stats.availableRooms}</p>
+        <div style={{ ...styles.card, ...styles.card2 }}>
+          <span style={styles.freeBadge}>FREE</span>
+          <div style={styles.icon}>🎬</div>
+          <p style={styles.courseType}>Skill Development Course</p>
+          <h3 style={styles.title}>Filmmaking Training Programme</h3>
+          <div style={styles.divider}></div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Duration</span>
+            <span style={styles.value}>5 Months</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Seats</span>
+            <span style={styles.value}>40 Seats</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Eligibility</span>
+            <span style={styles.value}>Graduation</span>
+          </div>
+          <div style={styles.infoRow}>
+            <span style={styles.label}>Fee</span>
+            <span style={styles.value}>Rs. 0 / Free</span>
+          </div>
+          <div style={styles.bottomTag}>
+            📍 SJMC, AKU Campus, Mithapur, Patna - 800001
+          </div>
         </div>
+
       </div>
     </div>
   );
