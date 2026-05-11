@@ -6,6 +6,7 @@ import Admission_popup from './components/Admission_popup';
 import StudentLens from './components/StudentLens';
 
 // Pages
+
 import Page1 from './page/page1';
 import Page2 from './page/page2';
 import About from './page/About';
@@ -82,6 +83,9 @@ import VJDivas from './page/VJDivas';
 import Seminar from './page/Seminar';
 import Conference from './page/Conference';
 import SmartClass from './page/SmartClass';
+import Capacity_Building from './page/Capacity_Building';
+import Annual_Day from './page/Annual_Day';
+import CIPM_Student_Visit from './page/CIPM_Student_Visit';
 
 
 
@@ -115,6 +119,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainContent />} />
+          <Route path="/Capacity_Building" element={<Capacity_Building/>} />
+          <Route path="/Annual_Day" element={<Annual_Day/>} />
+          <Route path="/CIPM_Student_Visit" element={<CIPM_Student_Visit />} />
           <Route path="/" element={<StudentLens />} />
           <Route path="/MA" element={<Page1 />} />
           <Route path="/PhD" element={<Page2 />} />

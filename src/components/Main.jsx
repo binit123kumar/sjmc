@@ -97,7 +97,7 @@ import Announcement2 from '../News/Announcement2.pdf'
 import Announcement3 from '../News/Announcement3.pdf'
 import Announcement4 from '../News/Announcement4.pdf'
 import Aids_reel_pdf from '../asset/News/एसजेएमसी में एड्स जागरूकता पर व्याख्यान का हुआ आयोजन.pdf'
-import Syllabus from '../News/SJMC Prospectus 2025.pdf'
+import Syllabus from '../News/SJMC Prospectus 2026.pdf'
 import Home from '../components/HomeButton'
 import Clubs from '../components/ClubsButton'
 import SocialMediaPopup from '../components/ClubsButton'
@@ -112,11 +112,31 @@ import VCMeet_2026_img from '../asset/Our gallery/VC Meet_2026/img5.jpeg'
 import Student_Interaction_img from '../asset/Our gallery/Student_Interaction_2026/img1.jpeg'
 import Youth_Day_img from '../asset/Our gallery/youthday_2026/1.jpeg'
 import StudentLens from '../components/StudentLens'
+import Capacity_Building_img from '../asset/Our gallery/Still/16.jpeg'
+import Annual_Day_img from '../asset/Our gallery/Annual_Day/1.jpeg'
+import CIPM_Student_Visit_img from '../asset/Our gallery/CIPM_Student_Visit/16.jpeg'
 
 
 const galleryItems = [
 
-
+{
+        id: 118,
+        image: Annual_Day_img,
+        title: "Annual Day 2026 | 19 Mar 2026",
+        link: "/Annual_Day"
+    },
+{
+        id: 117,
+        image: Capacity_Building_img,
+        title: "Capacity Building for Mental Health | 21 Feb 2026",
+        link: "/Capacity_Building"
+    },
+    {
+        id: 116,
+        image: CIPM_Student_Visit_img,
+        title: "CIPM Student Visit | 29 Jan 2026",
+        link: "/CIPM_Student_Visit"
+    },
     {
         id: 115,
         image: Youth_Day_img,
