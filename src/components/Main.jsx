@@ -115,9 +115,16 @@ import StudentLens from '../components/StudentLens'
 import Capacity_Building_img from '../asset/Our gallery/Still/16.jpeg'
 import Annual_Day_img from '../asset/Our gallery/Annual_Day/1.jpeg'
 import CIPM_Student_Visit_img from '../asset/Our gallery/CIPM_Student_Visit/16.jpeg'
+import TvBanner from '../asset/Our gallery/menstrual health and hygiene/TV Banner.png';
 
 
 const galleryItems = [
+    {
+        id: 119,
+        image: TvBanner,
+        title: "Menstrual Health and Hygiene | 06th June 2026",
+        link: "/Health"
+    },
 
 {
         id: 118,

@@ -86,6 +86,7 @@ import SmartClass from './page/SmartClass';
 import Capacity_Building from './page/Capacity_Building';
 import Annual_Day from './page/Annual_Day';
 import CIPM_Student_Visit from './page/CIPM_Student_Visit';
+import Health from './page/Health';
 
 
 
@@ -118,6 +119,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Health />} />
           <Route path="/" element={<MainContent />} />
           <Route path="/Capacity_Building" element={<Capacity_Building/>} />
           <Route path="/Annual_Day" element={<Annual_Day/>} />
