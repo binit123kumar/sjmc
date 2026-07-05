@@ -119,7 +119,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Health />} />
+          
           <Route path="/" element={<MainContent />} />
           <Route path="/Capacity_Building" element={<Capacity_Building/>} />
           <Route path="/Annual_Day" element={<Annual_Day/>} />
@@ -164,6 +164,7 @@ function App() {
           <Route path="/Page36" element={<Page36 />} />
           <Route path="/Page37" element={<Page37 />} />
           <Route path="/Page54" element={<Page54 />} />
+          <Route path="/Health" element={<Health />} />
           <Route path="/Pbord" element={<Pbord />} />
           <Route path="/PBOS" element={<PBOS />} />
           <Route path="/Nikon" element={<Nikon />} />
