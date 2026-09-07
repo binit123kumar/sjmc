@@ -116,16 +116,22 @@ import Capacity_Building_img from '../asset/Our gallery/Still/16.jpeg'
 import Annual_Day_img from '../asset/Our gallery/Annual_Day/1.jpeg'
 import CIPM_Student_Visit_img from '../asset/Our gallery/CIPM_Student_Visit/16.jpeg'
 import TvBanner from '../asset/Our gallery/menstrual health and hygiene/TV Banner.png';
-
+import Nasha_mukti from '../asset/Our gallery/nukar/banner.webp'
 
 const galleryItems = [
+    {
+        id: 120,
+        image: Nasha_mukti,
+        title: "नशामुक्ति नुक्कड़ नाटक — “मुझे चाहिए आज़ादी | 15 August 2026",
+        link: "/Nasha_mukti"
+    },
     {
         id: 119,
         image: TvBanner,
         title: "Menstrual Health and Hygiene | 06th June 2026",
         link: "/Health"
     },
-
+    
 {
         id: 118,
         image: Annual_Day_img,
