@@ -88,6 +88,7 @@ import Annual_Day from './page/Annual_Day';
 import CIPM_Student_Visit from './page/CIPM_Student_Visit';
 import Health from './page/Health';
 import Nasha_mukti from './page/Nasha_mukti';
+import Photo from './page/Photo';
 
 
 
@@ -204,7 +205,7 @@ function App() {
           <Route path="/Student_Interaction" element={<Student_Interaction />} />
           <Route path="/Youth_Day" element={<Youth_Day/>} />
           <Route path="/Nasha_mukti" element={<Nasha_mukti/>} />
-
+          <Route path="/photo" element={<Photo />} />
           <Route path="/News1" element={<News1 />} />
           <Route path="/News2" element={<News2 />} />
           <Route path="/News3" element={<News3 />} />
