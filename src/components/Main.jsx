@@ -117,12 +117,12 @@ import Annual_Day_img from '../asset/Our gallery/Annual_Day/1.jpeg'
 import CIPM_Student_Visit_img from '../asset/Our gallery/CIPM_Student_Visit/16.jpeg'
 import TvBanner from '../asset/Our gallery/menstrual health and hygiene/TV Banner.png';
 import Nasha_mukti from '../asset/Our gallery/nukar/banner.webp'
-import photo from '../asset/Our gallery/photo/banner.jpg'
+import Photo from '../asset/Our gallery/Photo/banner.jpg'
 
 const galleryItems = [
     {
         id: 121,
-        image: photo,
+        image: Photo,
         title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
         link: "/photo"
     },
