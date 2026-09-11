@@ -127,26 +127,26 @@ const galleryItems = [
     {
         id: 125,
         image: Silent_Reading_Book_Event,
-        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        title:"Silent Reading Book Event | 21 August 2026",
         link: "/Silent_Reading_Book_Event"
     },
     {
         id: 124,
         image: Real_Making_Competition,
-        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
-        link: "/Real_Making_CompetitionReal_Making_Competition"
+        title:"Real_Making_Competition 2026 – Celebrating Creativity and Innovation | 05 August 2026",
+        link: "/Real_Making_Competition"
     },
     {
         id: 123,
         image: AI_Debate,
-        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        title:"AI and Human Thinking: A Critical Debate on the Future of Intelligence | 25 August 2026",
         link: "/AI_Debate"
     },
     {
         id: 122,
         image: Zero_tv,
-        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
-        link: "/Zero_tvo"
+        title:"Zero TV – The Voice of Journalism & Mass Communication | 15 August 2026",
+        link: "/Zero_tv"
     },
     {
         id: 121,

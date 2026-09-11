@@ -23,7 +23,7 @@ function AI_Debate() {
   const title =
     'AI and Human Thinking: A Critical Debate on the Future of Intelligence';
 
-  const date = '21 August 2026';
+  const date = '25 August 2026';
 
   const images = [
     Image2,

@@ -27,7 +27,7 @@ function Real_Making_Competition() {
 
   const title =
     'Real_Making_Competition 2026 – Celebrating Creativity and Innovation';
-  const date = '5 August 2026';
+  const date = '05 August 2026';
 
   const images = [
     Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10,

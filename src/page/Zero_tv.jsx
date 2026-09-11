@@ -30,7 +30,7 @@ function Zero_tv() {
   const title =
     'Zero TV – The Voice of Journalism & Mass Communication';
 
-  const date = '5 August 2026';
+  const date = '15 August 2026';
 
   const images = [
     Image2,
