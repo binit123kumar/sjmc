@@ -8,14 +8,18 @@ import Slide2 from '../asset/k19.jpg';
 import Slide4 from '../asset/home_slider_4.jpg';
 import Slide5 from '../asset/home_slider_5.jpg';
 import Slide6 from '../asset/home_slider_6.jpg';
-import Slide7 from '../asset/home_slider_7.jpg';
-import Slide8 from '../asset/home_slider_8.jpg';
-import Slide9 from '../asset/home_slider_9.jpg';
-import Slide10 from '../asset/home_slider_10.jpg';
-import Slide11 from '../asset/home_slider_11.jpg';
-import Slide12 from '../asset/home_slider_12.jpg';
-import Slide13 from '../asset/home_slider_13.jpg';
-import Slide14 from '../asset/home_slider_14.jpg';
+import Slide7 from '../asset/slider/111.webp';
+import Slide8 from '../asset/slider/112.webp';
+import Slide9 from '../asset/slider/113.webp';
+import Slide10 from '../asset/slider/114.webp';
+import Slide11 from '../asset/slider/115.webp';
+import Slide12 from '../asset/slider/116.webp';
+import Slide13 from '../asset/slider/117.webp';
+import Slide14 from '../asset/slider/118.webp';
+import Slide15 from '../asset/slider/119.webp';
+import Slide16 from '../asset/slider/120.webp';
+import Slide17 from '../asset/home_slider_13.jpg';
+import Slide20 from '../asset/home_slider_14.jpg';
 import Slide18 from '../asset/Our gallery/Orientation/orientation (1).jpeg'
 import Slide19 from '../asset/Our gallery/Orientation/orientation (3).jpeg'
 // import Slide20 from '../asset/upcoming events/Image1.jpeg'
@@ -44,6 +48,10 @@ const slideImages = [
   { url: Slide12, caption: '' },
   { url: Slide13, caption: '' },
   { url: Slide14, caption: '' },
+  { url: Slide15, caption: '' },
+  { url: Slide16, caption: '' },
+  { url: Slide17, caption: '' },
+  
 ];
 
 function ImageSlider() {
