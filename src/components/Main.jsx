@@ -118,8 +118,36 @@ import CIPM_Student_Visit_img from '../asset/Our gallery/CIPM_Student_Visit/16.j
 import TvBanner from '../asset/Our gallery/menstrual health and hygiene/TV Banner.png';
 import Nasha_mukti from '../asset/Our gallery/nukar/banner.webp'
 import Photo from '../asset/Our gallery/Photo/banner.jpg'
+import Silent_Reading_Book_Event from '../asset/Our gallery/Silent_Reading_Book_Event/banner.webp';
+import Real_Making_Competition from '../asset/Our gallery/Real_Making_Competition/banner.webp';
+import AI_Debate from '../asset/Our gallery/AI_Debate/banner.webp';
+import Zero_tv from '../asset/Our gallery/Zero_tv/banner.webp';
 
 const galleryItems = [
+    {
+        id: 125,
+        image: Silent_Reading_Book_Event,
+        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        link: "/Silent_Reading_Book_Event"
+    },
+    {
+        id: 124,
+        image: Real_Making_Competition,
+        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        link: "/Real_Making_CompetitionReal_Making_Competition"
+    },
+    {
+        id: 123,
+        image: AI_Debate,
+        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        link: "/AI_Debate"
+    },
+    {
+        id: 122,
+        image: Zero_tv,
+        title:"World Photography Day Photo Exhibition at Aryabhatta Knowledge University | 19 August 2026",
+        link: "/Zero_tvo"
+    },
     {
         id: 121,
         image: Photo,

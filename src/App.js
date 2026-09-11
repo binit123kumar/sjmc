@@ -89,6 +89,11 @@ import CIPM_Student_Visit from './page/CIPM_Student_Visit';
 import Health from './page/Health';
 import Nasha_mukti from './page/Nasha_mukti';
 import Photo from './page/Photo';
+import Silent_Reading_Book_Event from './page/Silent_Reading_Book_Event';
+import Real_Making_Competition from './page/Real_Making_Competition';
+import AI_Debate from './page/AI_Debate';
+import Zero_tv from './page/Zero_tv';
+
 
 
 
@@ -213,6 +218,10 @@ function App() {
           <Route path="/News5" element={<News5 />} />
           <Route path="/News6" element={<News6 />} />
           <Route path="/News7" element={<News7 />} />
+          <Route path="/Silent_Reading_Book_Event" element={<Silent_Reading_Book_Event />} />
+          <Route path="/Real_Making_Competition" element={<Real_Making_Competition />} />
+          <Route path="/AI_Debate" element={<AI_Debate />} />
+          <Route path="/Zero_tv" element={<Zero_tv />} />
 
          
         </Routes>
